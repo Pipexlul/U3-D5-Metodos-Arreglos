@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+
+    <link rel="stylesheet" href="assets/css/components/navbar.css" />
+    <link rel="stylesheet" href="assets/css/components/footer.css" />
+
+    <link rel="stylesheet" href="assets/css/components/button.css" />
+
+    <link rel="stylesheet" href="assets/css/pages/index.css" />
+
+    <script src="assets/js/app.js" defer></script>
+
+    <title>FG: U3 Desafio 5</title>
+  </head>
+  <body>
+    <div class="content">
+      <nav class="flex-container navbar">
+        <h2>Unidad 3 - Desafío 5: Metodos de arreglos</h2>
+        <div>
+          <ul class="flex-container">
+            <li><a href="index.html">Index</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main class="flex-container">
+        <div class="main-display flex-container">
+          <h3>Todo List</h3>
+          <hr />
+          <div class="tasks-container grid-container">
+            <div class="tasks-adding flex-container">
+              <p>Nueva Tarea</p>
+              <input id="input-task" type="text" /><button id="input-button">
+                Agregar
+              </button>
+            </div>
+            <div class="tasks-info flex-container">
+              <p>Total: <b id="display-total-tasks">0</b></p>
+              <p>Realizadas: <b id="display-completed-tasks">0</b></p>
+            </div>
+            <div id="tasks-table-container" class="tasks-data flex-container">
+              <table class="tasks-table">
+                <tr>
+                  <th>ID</th>
+                  <th colspan="3">Tarea</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="flex-container footer">
+        <div>
+          <h4>Felipe Guajardo. 2022</h4>
+        </div>
+        <div class="footer-desc">
+          <p>
+            Trabajo asignado por Academia Desafio Latam por el curso Full-Stack
+            Javascript
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

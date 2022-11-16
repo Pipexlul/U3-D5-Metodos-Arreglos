@@ -1,0 +1,42 @@
+.main-display {
+  flex-direction: column;
+}
+
+.tasks-container {
+  width: 100%;
+  grid-template-areas:
+    "add add"
+    "info data";
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+}
+
+.tasks-adding {
+  grid-area: add;
+  column-gap: 30px;
+}
+
+.tasks-info {
+  grid-area: info;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tasks-data {
+  grid-area: data;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tasks-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tasks-table th {
+  text-align: left;
+}
+
+.task-completed {
+  background-color: aqua;
+}
